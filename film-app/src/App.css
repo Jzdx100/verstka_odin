@@ -1,0 +1,38 @@
+#root {
+  width: 100vw;
+  height: 100vh;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.wrapper{
+  background-color: rgb(175, 193, 233);
+  width: 100vw;
+  height: 100vh;
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+
+}
+
+.not-found{
+  align-self: center;
+}
+
+.main-content{
+  display: flex;
+  flex-direction: column;
+}
+
+.v-stack.not-found{
+  /* display: none; */
+  padding-bottom: 10rem;
+}
+
+.v-stack.not-found.zero{
+  display: block;
+}
+
+.cards{
+  width: 100%;
+  height: 100%;
+}
